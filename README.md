@@ -17,3 +17,6 @@ Then you can either:
 ## Run
 
 To run the service, simply run `npm start` (`yarn start`).
+
+## Test
+Import agyolog.postman_collection.json into your Postman installation, then run ASS-POC test

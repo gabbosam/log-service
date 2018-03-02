@@ -1,0 +1,61 @@
+{
+	"info": {
+		"name": "agyolog",
+		"_postman_id": "eaee3847-1aa5-9c5b-e618-ee1bfe6e9fcf",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ASS-POC",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "authkey",
+							"value": "ADf12iaso302938X",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "header",
+							"value": "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?>\n<LogPrivacy>\n  <Header>\n    <Products>LYNFA</Products>\n    <Vatcode>03561971205</Vatcode>\n    <License>2002:2005</License>\n    <Owner>2 Studi Snc</Owner>\n    <Tenant>TSNATIVO</Tenant>\n    <SystemInstallation>ht5HJXOTycNgsavuFTzMuNCVD4g7fcctiKGb</SystemInstallation>\n    <Hostname>lynfafwk-dcbo.teamsy</Hostname>\n    <LocalTimestamp>2018-02-23T11:40:39Z</LocalTimestamp>\n  </Header>\n</LogPrivacy>",
+							"type": "text",
+							"description": ""
+						},
+						{
+							"key": "data",
+							"value": "<?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?>\n<LogPrivacy>\n  <Data>\n    <RowID>1</RowID>\n    <TeamsystemID>l.isotti</TeamsystemID>\n    <LocalUser>admin</LocalUser>\n    <Client>lynfafwk-dcbo</Client>\n    <TimeStamp>2018-02-23T11:40:39Z</TimeStamp>\n    <Mode>F</Mode>\n    <Application>MULTI</Application>\n    <Function>EVRUN Esecuzione programmi non a menu</Function>\n    <Action>Login</Action>\n    <Operation>C</Operation>\n    <Message></Message>\n  </Data>\n  <Data>\n    <RowID>2</RowID>\n    <TeamsystemID>l.isotti</TeamsystemID>\n    <LocalUser>admin</LocalUser>\n    <Client>lynfafwk-dcbo</Client>\n    <TimeStamp>2018-02-23T11:40:39Z</TimeStamp>\n    <Mode>F</Mode>\n    <Application>MULTI</Application>\n    <Function>EVRUN Esecuzione programmi non a menu</Function>\n    <Action>Message</Action>\n    <Operation>U</Operation>\n    <Message>Email Modifica da l.isotti@teamsystem.com a l.isotti@gmail.com</Message>\n  </Data>\n  <Data>\n    <RowID>3</RowID>\n    <TeamsystemID>l.isotti</TeamsystemID>\n    <LocalUser>admin</LocalUser>\n    <Client>lynfafwk-dcbo</Client>\n    <TimeStamp>2018-02-23T11:40:39Z</TimeStamp>\n    <Mode>F</Mode>\n    <Application>MULTI</Application>\n    <Function>EVRUN Esecuzione programmi non a menu</Function>\n    <Action>Message</Action>\n    <Operation>C</Operation>\n    <Message>Anagrafica Cod.1200 Rag.Soc. Studio Rossi</Message>\n  </Data>\n  <Data>\n    <RowID>4</RowID>\n    <TeamsystemID>l.isotti</TeamsystemID>\n    <LocalUser>admin</LocalUser>\n    <Client>lynfafwk-dcbo</Client>\n    <TimeStamp>2018-02-23T11:40:39Z</TimeStamp>\n    <Mode>F</Mode>\n    <Application>MULTI</Application>\n    <Function>EVRUN Esecuzione programmi non a menu</Function>\n    <Action>Message</Action>\n    <Operation>D</Operation>\n    <Message>Anagrafica Cod.1201 Rag.Soc. Studio Bianchi</Message>\n  </Data>\n  <Data>\n    <RowID>5</RowID>\n    <TeamsystemID>l.isotti</TeamsystemID>\n    <LocalUser>admin</LocalUser>\n    <Client>lynfafwk-dcbo</Client>\n    <TimeStamp>2018-02-23T11:40:39Z</TimeStamp>\n    <Mode>F</Mode>\n    <Application>MULTI</Application>\n    <Function>EVRUN Esecuzione programmi non a menu</Function>\n    <Action>Logout</Action>\n    <Operation>D</Operation>\n    <Message></Message>\n  </Data>\n</LogPrivacy>",
+							"type": "text",
+							"description": ""
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:3000/log",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3000",
+					"path": [
+						"log"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
